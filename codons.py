@@ -8,6 +8,6 @@ def create_codon_dict(file_path):
         cells = row.strip().split('\t') 
         codon = cells[0]
         amino_acid = cells[2]
-        codon_amino_dict[codon] = [amino_acid]
+        codon_amino_dict[codon] = amino_acid
     return codon_amino_dict
 
